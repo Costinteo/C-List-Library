@@ -1,0 +1,2 @@
+main: main.c src/mixed_list.c src/forward_list.c src/node/forward_node.c src/doubly_list.c src/node/doubly_node.c src/ordered_list.c src/queue.c src/stack.c src/pointer_list.c src/node/pointer_node.c
+	gcc -o main main.c src/mixed_list.c src/forward_list.c src/node/forward_node.c src/doubly_list.c src/node/doubly_node.c src/ordered_list.c src/queue.c src/stack.c src/pointer_list.c src/node/pointer_node.c -I.
